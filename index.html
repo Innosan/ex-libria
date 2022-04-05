@@ -14,7 +14,7 @@
         <p class="logo">ExL</p>
         <div class="nav">
             <a href="#about-us">О НАС</a>
-            <a href="#products">ПРОДУКТЫ</a>
+            <a href="javascript: scrollTo();">ПРОДУКТЫ</a>
             <a href="#contacts">КОНТАКТЫ</a>
         </div>
         <a href="">
@@ -40,18 +40,89 @@
             alt="Наше издательство">
     </section>
     <section class="about-us" id="#about-us">
-        <div class="aboutass">
+        <div class="cripple">
             <h2>О нас</h2>
             <div class="abt-us-txt">
-                <p>Мы - небольшое издательство, основанное
-                    в 1984 году в Лондоне.</p>
-                <p>Славимся быстым и качественным выпуском ваших произведений с безукоризненной
-                    редактурой.
-                </p>
-                <img src="img\024.png" alt="Сотрудник издательства">
+                <div class="txt">
+                    <p style="margin-bottom: 40px;">Мы - небольшое издательство, основанное<br>
+                        в <strong>1984</strong> году в Лондоне.</p>
+                    <p>Славимся быстым и качественным выпуском ваших<br>произведений с безукоризненной
+                        <br>редактурой.
+                    </p>
+                </div>
+                <img style="border-radius: 24px;" src="img\024.png" alt="Сотрудник издательства">
             </div>
         </div>
     </section>
+    <section id="#products" class="productS">
+        <h2>Продукты</h2>
+        <div class="product-cards">
+            <div class="card">
+                <img class="prod-img" src="img\products\gift_pack.png" alt="Подарочный набор">
+                <p class="prod-name">Подарочный<br>набор</p>
+                <button class="order-btn">Заказать</button>
+            </div>
+            <div class="card">
+                <img class="prod-img" style="padding-left: 160px;" src="img\products\premium_pack.png"
+                    alt="«Премиум» набор">
+                <p class="prod-name" style="margin-top: -13px;">«Премиум»<br>набор</p>
+                <button class="order-btn">Заказать</button>
+            </div>
+            <div class="card">
+                <img class="prod-img" style="padding-left: 135px;" src="img\products\Wood.png" alt="Канцелярский набор">
+                <p class="prod-name" style="margin-top: -26px;">Канцелярский<br>набор</p>
+                <button class="order-btn">Заказать</button>
+            </div>
+        </div>
+        <button class="all-prods">Все продукты</button>
+    </section>
+    <section class="why-us">
+        <div class="cripple">
+            <h2>Почему мы?</h2>
+            <div class="pros-cards">
+                <div class="pro-card">
+                    <img class="pro-img" src="img\icons\fast-time.png" alt="">
+                    <p class="pro-name">Моментальная<br>доставка</p>
+                </div>
+                <div class="pro-card" style="padding-left: 10px; margin-left: -10px;">
+                    <img class="pro-img" src="img\icons\businessman.png" alt="">
+                    <p class="pro-name">Профессионализм</p>
+                </div>
+                <div class="pro-card">
+                    <img class="pro-img" src="img\icons\medal.png" alt="">
+                    <p class="pro-name">Лучшее<br>качество</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contacts" id="#contacts">
+        <div class="cripple">
+            <h2>Контакты</h2>
+            <div class="abt-us-txt" style="flex-direction: row;">
+                <div class="txt" style="text-align: left;">
+                    <p style="margin-bottom: 40px;">Мы находимся в самом центре Петербурга<br>
+                        - улица Декабристов, дом 32.</p>
+                    <p>В ожидании заказа вы можете<br>
+                        расположиться в прилежащем парке,<br>
+                        поглядеть на памятник Римкому-Корсакову<br>
+                        или сходить в кафешку.
+                    </p>
+                </div>
+                <img style="border-radius: 24px;" src="img\Dekabristov_Street_SPB_1.png" alt="Сотрудник издательства">
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="foot">
+            <p class="logo" style="margin: 0;">ExL</p>
+            <div class="contacts-txt">
+                <p class="mail">ex-libris@gmail.com</p>
+                <p class="number">+7 (900) 357-43-23</p>
+                <p class="adress" style="text-align: right;">г. Санкт-Петербург, ул. Декабристов, д. 32</p>
+            </div>
+        </div>
+    </footer>
 </body>
+<script src="js\scroll.js"></script>
 
 </html>
