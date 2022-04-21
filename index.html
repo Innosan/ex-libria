@@ -12,7 +12,7 @@
 <body>
     <header>
         <p class="logo">ExL</p>
-        <div class="nav">
+        <div class="nav" id="nav-menu">
             <a href="#about-us">О НАС</a>
             <a href="#products">ПРОДУКТЫ</a>
             <a href="#contacts">КОНТАКТЫ</a>
@@ -23,7 +23,7 @@
         <a href="">
             <img class="login-btn" src="img\icons\user.png" alt="Log In">
         </a>
-        <div class="burger">
+        <div class="burger" onclick="burgAnim(this)">
             <div class="bar1"></div>
             <div class="bar2"></div>
             <div class="bar3"></div>
@@ -128,5 +128,5 @@
         </div>
     </footer>
 </body>
-
+<script src="js\burger.js"></script>
 </html>
